@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/NetLubricant/NetLubricant.csproj" />
+  </Folder>
+</Solution>

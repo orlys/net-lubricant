@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>NetLubricant</RootNamespace>
+    <AssemblyName>NetLubricant</AssemblyName>
+    <PackageId>NetLubricant</PackageId>
+    <Authors>Orlys</Authors>
+    <Company>Orlys</Company>
+    <Description>Unofficial .NET client for eternalegypt-family Netgear LTE modems (LM1200, LB2120, LB1120, MR1100, MR6110, ...). Reverse-engineered from the device web UI; covers login, SMS read/send/delete, modem info, data-usage, reboot, LTE re-attach and reachability probing.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/orlys/net-lubricant</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/orlys/net-lubricant</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>netgear;lte;modem;sms;lm1200;lb2120;mr1100</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
